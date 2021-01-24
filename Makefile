@@ -1,4 +1,4 @@
 build:
-	g++ ./src/*.cpp -o main
+	g++ -Wall ./src/*.cpp -o prog
 run:
-	./main
+	./prog
