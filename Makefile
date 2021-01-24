@@ -1,8 +1,4 @@
 build:
-	gcc ./src/*.c -o main
-
+	g++ ./src/*.cpp -o main
 run:
 	./main
-	
-clean:
-	rm main
